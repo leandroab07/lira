@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "LIRA: Literature Integration, Ranking & Analysis"
+version: 1.0.0
+date-released: "2026-05-29"
+type: software
+license: LicenseRef-All-Rights-Reserved
+repository-code: "https://github.com/leandroab07/lira"
+authors:
+  - family-names: "Basílio"
+    given-names: "Leandro Araújo"
+    affiliation: "Universidade Federal do Espírito Santo (UFES)"
+    orcid: "https://orcid.org/0009-0008-8873-3204"
+  - family-names: "Casotti"
+    given-names: "Matheus Correia"
+    affiliation: "Universidade Federal do Espírito Santo (UFES)"
+    orcid: "https://orcid.org/PREENCHER-ORCID-MATHEUS"
+  - family-names: "Meira"
+    given-names: "Débora Dummer"
+    affiliation: "Universidade Federal do Espírito Santo (UFES)"
+    orcid: "https://orcid.org/PREENCHER-ORCID-DEBORA"
+  - family-names: "Louro"
+    given-names: "Iuri Drumond"
+    affiliation: "Universidade Federal do Espírito Santo (UFES)"
+    orcid: "https://orcid.org/PREENCHER-ORCID-IURI"
+contact:
+  - family-names: "Basílio"
+    given-names: "Leandro Araújo"
+    email: "leandro.basilio@aluno.ufes.br"
+references:
+  - type: software
+    title: "LIRA"
+    authors:
+      - family-names: "Baldam"
+        given-names: "Roquemar de Lima"
+        affiliation: "Universidade Federal do Espírito Santo (UFES)"
+        orcid: "https://orcid.org/PREENCHER-ORCID-ROQUEMAR"
+    notes: "Contributor"

@@ -1,0 +1,63 @@
+Package: lira
+Title: LIRA — Literature Integration, Ranking & Analysis
+Version: 1.0.0
+Date: 2026-05-29
+Authors@R: c(
+    person("Leandro Araújo", "Basílio",
+           email = "leandro.basilio@aluno.ufes.br",
+           role = c("aut", "cre"),
+           comment = c(ORCID = "0009-0008-8873-3204")),
+    person("Matheus Correia", "Casotti",
+           email = "matheus.casotti@ufes.br",
+           role = "aut",
+           comment = c(ORCID = "0000-0000-0000-0000")),
+    person("Débora Dummer", "Meira",
+           email = "debora.meira@ufes.br",
+           role = c("aut", "ths"),
+           comment = c(ORCID = "0000-0000-0000-0000")),
+    person("Iuri Drumond", "Louro",
+           email = "iuri.louro@ufes.br",
+           role = "aut",
+           comment = c(ORCID = "0000-0000-0000-0000")),
+    person("Roquemar de Lima", "Baldam",
+           email = "roquemar.baldam@ufes.br",
+           role = "ctb",
+           comment = c(ORCID = "0000-0000-0000-0000"))
+    )
+Description:
+    Bilingual (Portuguese/English) interactive Shiny application for systematic
+    and scoping review support. Imports records from PubMed, Web of Science,
+    Scopus, and custom sources; performs automatic deduplication; calculates
+    composite relevance scores (thematic and bibliometric components);
+    classifies articles into priority tiers (P1-P4); generates bibliometric
+    networks with Louvain clustering; and exports a structured Excel workbook
+    with PRISMA flow data, annotation templates, and auto-generated methods
+    text in both languages. Recency scoring is relative to the user-defined
+    search date; the Louvain clustering seed is user-configurable for full
+    reproducibility. Cross-platform file navigation detects all available
+    system drives automatically.
+License: All rights reserved. Copyright (c) 2025 Basílio LA, Casotti MC,
+    Meira DD, Louro ID.
+URL: https://github.com/leandroab07/lira
+BugReports: https://github.com/leandroab07/lira/issues
+Depends:
+    R (>= 4.2.0)
+Imports:
+    shiny,
+    shinydashboard,
+    shinyFiles,
+    shinyWidgets,
+    bibliometrix,
+    tidyverse,
+    openxlsx,
+    ggplot2,
+    DT,
+    waiter,
+    igraph,
+    dplyr,
+    tidyr,
+    stringr
+Encoding: UTF-8
+Language: pt-BR, en
+NeedsCompilation: no
+Repository: GitHub

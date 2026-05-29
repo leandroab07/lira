@@ -1,0 +1,51 @@
+{
+  "title": "LIRA: Literature Integration, Ranking & Analysis",
+  "description": "Bilingual (Portuguese/English) interactive R/Shiny application for systematic and scoping review support. Imports records from PubMed, Web of Science, Scopus, and custom sources; performs automatic deduplication; calculates composite relevance scores (thematic and bibliometric components); classifies articles into priority tiers (P1-P4); generates bibliometric networks with Louvain clustering (user-configurable seed); and exports a structured Excel workbook with PRISMA flow data, annotation templates, and auto-generated methods text in both languages. Cross-platform file navigation detects all available drives automatically. Developed at the Núcleo de Genética Humana e Molecular (NGHM), Universidade Federal do Espírito Santo (UFES).",
+  "version": "1.0.0",
+  "language": "por",
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "other-closed",
+  "creators": [
+    {
+      "name": "Basílio, Leandro Araújo",
+      "affiliation": "Universidade Federal do Espírito Santo (UFES)",
+      "orcid": "0009-0008-8873-3204"
+    },
+    {
+      "name": "Casotti, Matheus Correia",
+      "affiliation": "Universidade Federal do Espírito Santo (UFES)",
+      "orcid": "PREENCHER-ORCID-MATHEUS"
+    },
+    {
+      "name": "Meira, Débora Dummer",
+      "affiliation": "Universidade Federal do Espírito Santo (UFES)",
+      "orcid": "PREENCHER-ORCID-DEBORA"
+    },
+    {
+      "name": "Louro, Iuri Drumond",
+      "affiliation": "Universidade Federal do Espírito Santo (UFES)",
+      "orcid": "PREENCHER-ORCID-IURI"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Baldam, Roquemar de Lima",
+      "affiliation": "Universidade Federal do Espírito Santo (UFES)",
+      "orcid": "PREENCHER-ORCID-ROQUEMAR",
+      "type": "Other"
+    }
+  ],
+  "keywords": [
+    "bibliometrics",
+    "systematic review",
+    "scoping review",
+    "literature prioritization",
+    "PRISMA",
+    "R",
+    "Shiny",
+    "network analysis",
+    "Louvain clustering",
+    "bilingual interface"
+  ]
+}
