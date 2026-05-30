@@ -1,5 +1,7 @@
 # LIRA — Literature Integration, Ranking & Analysis
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20454162.svg)](https://doi.org/10.5281/zenodo.20454162)
+
 > Bilingual (PT/EN) Shiny application for multi-database bibliometric analysis, article prioritization, and reading queue generation.
 
 ## Description
@@ -46,7 +48,7 @@ shiny::runApp("lira.R")
 
 If you use this software in a publication, please cite:
 
-> Basílio, L.A., Casotti, M.C., Meira, D.D., Louro, I.D. (2025). *LIRA: Literature Integration, Ranking & Analysis* (v1.0.0). Universidade Federal do Espírito Santo (UFES), Vitória, ES, Brasil. https://doi.org/[DOI]
+> Basílio, L.A., Casotti, M.C., Meira, D.D., Louro, I.D. (2026). *LIRA: Literature Integration, Ranking & Analysis* (v1.0.0). Universidade Federal do Espírito Santo (UFES), Vitória, ES, Brasil. https://doi.org/10.5281/zenodo.20454162
 
 ## Authors
 
@@ -76,5 +78,5 @@ Vitória, ES, Brasil
 
 ## License
 
-Copyright © 2025 Leandro Araújo Basílio. All rights reserved.  
+Copyright © 2026 Basílio LA, Casotti MC, Meira DD, Louro ID. All rights reserved.  
 See [LICENSE](LICENSE) for details.
